@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/inicio.css">    
+  
+  <link rel="icon" href="assets/logo.ico" type="image/x-icon">
+
+
+</head>
+
+
+<body class="inicio">
+
+  <div class="wrapper">
+
+    <div id="menu"></div>
+
+    <main class="gif-centro">
+      <img src="assets/sauce3.gif" alt="GIF central">
+    </main>
+    
+  </div>
+
+  <div id="footer"></div>
+  
+    
+ <video
+    id="right-video"
+    class="right-gif"
+    autoplay muted loop playsinline
+  </video>
+
+  <script>
+    const videos = [
+      'inicio/cielovid.webm',
+      'inicio/paredvid.webm',
+      'inicio/capillavid.webm'
+    ];
+    const videoElement = document.getElementById('right-video');
+    videoElement.src = videos[Math.floor(Math.random() * videos.length)];
+  </script>
+
+  <script src="js/layout.js"></script>
+
+</body>
+</html>

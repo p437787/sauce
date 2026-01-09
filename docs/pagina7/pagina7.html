@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sonido</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/layout.css">
+  <link rel="stylesheet" href="../styles/sonido.css">   
+  
+  <link rel="icon" href="../assets/logo.ico" type="image/x-icon">
+
+
+</head>
+
+
+<body class="sonido">
+
+  <div class="wrapper"></div>
+
+  <div id="header"></div>
+
+  <div id="menu"></div>
+
+    <main class="galeria">
+
+      <section class="file-list">
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Fecha de creación</th>
+              <th>Reproducir</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td><a href="A1.wav">(nombre)</a></td>
+              <td>20-12-2025</td>
+              <td><audio controls src="A1.wav"></audio></td>
+            </tr>
+
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+
+    <div id="footer"></div>
+
+    <script>
+      function actualizarHora() {
+        const ahora = new Date();
+        document.getElementById('hora').textContent = ahora.toLocaleTimeString();
+      }
+      setInterval(actualizarHora, 1000);
+      actualizarHora();
+    </script>
+  
+  
+    
+  <script src="../js/layout.js"></script>
+  
+  
+  
+  </body>
+  </html>

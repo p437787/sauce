@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Visual</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/layout.css">
+  <link rel="stylesheet" href="../styles/visual.css">   
+  
+  <link rel="icon" href="../assets/logo.ico" type="image/x-icon">
+
+
+</head>
+
+
+<body class="visual">
+
+  <div class="wrapper"></div>
+
+  <div id="header"></div>
+
+  <div id="menu"></div>
+
+
+    <main class="galeria">
+
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/HFf4V9aCv6Q"
+          title="Video"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/d9nhsdEzGuA"
+        title="Video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/kpjISpGmS2U"
+        title="Video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      
+      <figure class="item">
+        <img src="2462.webp" alt="">
+      </figure>
+      
+      <figure class="item">
+        <img src="5992.webp" alt="">
+      </figure>
+
+      <figure class="item">
+        <img src="04048.webp" alt="">
+      </figure>
+      
+      <figure class="item">
+        <img src="04126.webp" alt="">
+      </figure>
+      
+      <figure class="item">
+        <img src="03861.webp" alt="">
+      </figure>
+      
+      <figure class="item">
+        <img src="03862.webp" alt="">
+      </figure>
+
+      <figure class="item">
+        <img src="04004.webp" alt="">
+      </figure>
+
+      <figure class="item">
+        <img src="03776.webp" alt="">
+      </figure> 
+
+      <figure class="item">
+        <img src="03840.webp" alt="">
+      </figure>
+      
+      
+    </main>
+
+
+    <div id="footer"></div>
+
+    <script>
+      function actualizarHora() {
+        const ahora = new Date();
+        document.getElementById('hora').textContent = ahora.toLocaleTimeString();
+      }
+      setInterval(actualizarHora, 1000);
+      actualizarHora();
+    </script>
+  
+  
+    
+  <script src="../js/layout.js"></script>
+  
+  
+  
+  </body>
+  </html>

@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #080808;
+    color: white;
+    font-family: monospace;
+  }
+  
+  header {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1000;
+  }
+  
+  .logo-fijo {
+    width: 120px;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0; 
+    bottom: 0;
+    left: 24px;
+    width: 105px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding-top: 360px;
+    font-size: 12px;
+  }
+  
+  nav::before {
+    content: "";
+    position: absolute;
+    top: 225px;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    background: #444;
+  }
+  
+  
+  
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
