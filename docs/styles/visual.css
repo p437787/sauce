@@ -24,11 +24,11 @@
 
 
 .galeria > :first-child {
-    margin-top: 300px !important;
+    margin-top: 100px !important;
 }
 
 .galeria > :last-child {
-    margin-bottom: 300px !important;
+    margin-bottom: 100px !important;
 }
   
   .item {
