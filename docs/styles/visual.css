@@ -21,6 +21,15 @@
     margin: 0 auto;
     padding: 300px 20px;
   }
+
+
+.galeria > :first-child {
+    margin-top: 300px !important;
+}
+
+.galeria > :last-child {
+    margin-bottom: 300px !important;
+}
   
   .item {
     display: flex;
