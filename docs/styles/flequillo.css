@@ -16,7 +16,7 @@
 .galeria {
     display: flex;
     flex-direction: column;
-    gap: 160px;
+    gap: 370px;
     max-width: 800px;
     margin: 0 auto;
     padding: 400px 20px;
