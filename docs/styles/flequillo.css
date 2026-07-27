@@ -23,6 +23,7 @@
   }
   
   .item {
+    background: red !important;
     display: flex;
     flex-direction: column;
     align-items: center;
